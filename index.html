@@ -5,9 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
     <!-- font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
 
     <!-- CSS -->
@@ -17,18 +26,22 @@
     <!-- Navigation Bar -->
     <header class="page-header">
       <div class="container header-container">
-        <nav>
+        <nav class="navigation">
           <a href="./index.html" class="logo-link">
             <span class="logo">WEB</span><span class="studio">STUDIO</span>
           </a>
           <ul class="nav-menu list">
-            <li><a href="./index.html" class="page current">Studio</a></li>
-            <li><a href="./portfolio.html" class="page">Portfolio</a></li>
-            <li><a href="#" class="page">Contacts</a></li>
+            <li class="item">
+              <a href="./index.html" class="page link current">Studio</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="page link">Portfolio</a>
+            </li>
+            <li class="item"><a href="#" class="page link">Contacts</a></li>
           </ul>
         </nav>
         <ul class="contacts-menu list">
-          <li>
+          <li class="item">
             <a href="mailto:info@devstudio.com" class="contact link"
               >info@devstudio.com</a
             >
@@ -61,7 +74,7 @@
       <section class="section">
         <div class="container">
           <ul class="benefits list">
-            <li>
+            <li class="item">
               <h3 class="title">Strategy</h3>
               <p class="description">
                 Our goal is to identify the business <br />
@@ -69,7 +82,7 @@
                 perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title">Punctuality</h3>
               <p class="description">
                 Bring the key message to the <br />
@@ -77,7 +90,7 @@
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title">Diligence</h3>
               <p class="description">
                 Research and confirm brands that <br />present the strongest
@@ -85,7 +98,7 @@
                 opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title">Technologies</h3>
               <p class="description">
                 Design practice focused on digital <br />experiences. We bring
@@ -101,7 +114,7 @@
         <div class="container">
           <h2 class="section-title">What Are We Doing</h2>
           <ul class="what-we-do list">
-            <li>
+            <li class="item">
               <img
                 src="./images/react-files-1.jpg"
                 alt="react-files-1"
@@ -109,7 +122,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/react-files-2.jpg"
                 alt="react-files-2"
@@ -117,7 +130,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/react-files-3.jpg"
                 alt="react-files-3"
@@ -133,7 +146,7 @@
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team list">
-            <li class="team-card">
+            <li class="item">
               <img
                 src="./images/team-1.jpg"
                 alt="react-files-1"
@@ -143,7 +156,7 @@
               <h3 class="name">Mark Guerrero</h3>
               <p class="position">Product Designer</p>
             </li>
-            <li class="team-card">
+            <li class="item">
               <img
                 src="./images/team-2.jpg"
                 alt="react-files-2"
@@ -153,7 +166,7 @@
               <h3 class="name">Tom Ford</h3>
               <p class="position">Frontend Developer</p>
             </li>
-            <li class="team-card">
+            <li class="item">
               <img
                 src="./images/team-3.jpg"
                 alt="react-files-3"
@@ -163,7 +176,7 @@
               <h3 class="name">Camila Garcia</h3>
               <p class="position">Marketing</p>
             </li>
-            <li class="team-card">
+            <li class="item">
               <img
                 src="./images/team-4.jpg"
                 alt="react-files-4"
@@ -180,7 +193,7 @@
 
     <!-- FOOTER -->
     <footer class="page-footer bg-footer">
-      <div class="footer-container container">
+      <div class="container">
         <a href="./index.html" class="logo-link">
           <span class="logo">WEB</span><span class="studio-footer">STUDIO</span>
         </a>
